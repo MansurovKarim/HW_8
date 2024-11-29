@@ -5,5 +5,6 @@ public enum SuperAbility {
     BOOST,
     HEAL,
     ability,
-    BLOCK_DAMAGE_AND_REVERT
+    BLOCK_DAMAGE_AND_REVERT,
+    REVIVE
 }

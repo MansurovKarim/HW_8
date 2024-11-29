@@ -21,8 +21,9 @@ public class RPG_Game {
         Hacker hacker = new Hacker("hacker", 200, 10, "hacking");
         Kamikadze kamikadze = new Kamikadze("Kamikadze", 150, 10, "Жертвует собой", 100);
         Reaper reaper = new Reaper("reaper", 250, 15, "Critical damage", 300);
+        Witcher witcher = new Witcher("Witcher", 200, 0, "gives his life");
 
-        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, reaper, kamikadze, hacker};
+        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, reaper, kamikadze, hacker, witcher};
         printStatistics(boss, heroes);
         while (!isGameOver(boss, heroes)) {
             playRound(boss, heroes);
